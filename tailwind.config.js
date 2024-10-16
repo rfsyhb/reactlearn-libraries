@@ -6,10 +6,11 @@ export default {
       colors: {
         bg: '#242424',
         btn: '#1a1a1a',
+        text: '#EAE9E3',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
