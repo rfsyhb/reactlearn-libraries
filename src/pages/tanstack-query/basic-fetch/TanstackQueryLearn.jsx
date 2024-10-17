@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getTasks } from '../api/api';
+import { getTasks } from '../../../api/api';
 
 export default function TanstackQueryLearn() {
   const { data, isLoading, error } = useQuery({

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import * as Yup from 'yup';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import PageFormatter from './common/PageFormatter';
+import PageFormatter from '../../components/common/PageFormatter';
 
 export default function FormLearn() {
   const [submitted, _setSubmitted] = useState(false);

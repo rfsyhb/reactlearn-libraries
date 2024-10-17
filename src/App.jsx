@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import Homepage from './components/homepage';
-import FormLearn from './components/FormLearn';
-import TanstackQueryLearn from './components/TanstackQueryLearn';
+import Homepage from './pages/Homepage';
+import FormLearn from './pages/formik/FormLearn';
+import TanstackQueryLearn from './pages/tanstack-query/basic-fetch/TanstackQueryLearn';
 
 function App() {
   return (
