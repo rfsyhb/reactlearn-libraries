@@ -5,14 +5,15 @@ import TanstackQueryLearn from './pages/tanstack-query/basic-fetch/TanstackQuery
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-bg text-text">
+    <div className="min-h-screen bg-bg text-text flex flex-col items-center">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/form" element={<FormLearn />} />
-        <Route path='/tanstackquerylearn' element={<TanstackQueryLearn />} />
+        <Route path="/tanstackquerylearn" element={<TanstackQueryLearn />} />
       </Routes>
     </div>
   );
 }
+
 
 export default App;

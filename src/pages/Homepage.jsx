@@ -1,4 +1,4 @@
-import PageFormatter from "../components/common/PageFormatter";
+import PageFormatter from '../components/common/PageFormatter';
 
 export default function Homepage() {
   return (
